@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: rgba(116, 198, 157, 1);
+
+}
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+.nav_main{
+    padding: 35px 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 187px;
+}
+.nav_menu ul {
+    display: flex;
+    gap: 30px;
+}
+.nav_menu ul li {
+    list-style: none;
+}
+.nav_menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    background: rgba(116, 198, 157, 1); ;
+}
+.hero_main{
+    padding:40px 135px;
+    display: flex;
+    justify-content: center;
+}
+.item{
+    flex:1;
+}
+.wel_txt{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+}
+.lorem{
+    padding-top: 15px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+.lorem_txt{
+    padding-top: 15px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.explore_btn{
+    margin-top: 25px;
+    padding: 13px 48px;
+    border-radius: 5px;
+    border-color: transparent;
+    background: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;    
+}
+.company_partners{
+    background: white;
+}
+.text_sec{
+    padding-top:60px;
+    text-align: center;   
+}
+.partners{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(116, 198, 157, 1);
+}
+.dolor{
+    padding-top: 16px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.dolor_h4{
+    padding-top: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.company_logo{
+    padding: 55px 141px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 68px;
+}
+.learn_button{
+    display: flex;
+    justify-content: center;
+}
+.learn_btn{
+    margin-top: 55px;
+    text-align: center;
+    padding: 13px 30px;
+    border: 1px solid transparent;
+    background: rgba(33, 37, 41, 1);
+    color: white;
+    border-radius: 5px;   
+}
+.consectetur{
+    background: white;
+}
+.consectetur_main{
+    padding: 73px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.ispum{
+    flex: 1;
+}
+.consectetur_left{
+    padding-top: 88px;
+    padding-left: 110px;   
+}
+.consectetur_h2{
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+.consectetur_p{
+    padding-top: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: rgba(33, 37, 41, 0.5);
+    margin-bottom: 10px;
+
+}
+.more_btn{
+    margin-top: 16px;
+    text-align: center;
+    padding: 13px 30px;
+    border: 1px solid transparent;
+    background: rgba(33, 37, 41, 1);
+    color: white;
+    border-radius: 5px;   
+}
+.consectetur_dolor{  
+    display: flex;
+    justify-content: space-between;
+}
+.two{
+    flex: 1;
+}
+.dolor_h2{
+    padding-top: 155px;
+    padding-left: 130px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+.dolor_p{
+    padding-top: 16px;
+    padding-left: 130px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: rgba(33, 37, 41, 0.5);
+    margin-bottom: 10px;
+}
+.moreone_btn{
+    margin-top: 16px;
+    margin-left: 130px;
+    text-align: center;
+    padding: 13px 30px;
+    border: 1px solid transparent;
+    background: rgba(33, 37, 41, 1);
+    color: white;
+    border-radius: 5px;
+}
+.our_team{
+    margin-top: 102px;
+}
+.team_txt{
+    text-align: center;
+}
+.team{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(116, 198, 157, 1);
+}
+.talents{
+    padding-top: 16px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;     
+}
+.team_p{
+    padding-top: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.team_photos{
+    display: flex;
+    align-items: center;
+    padding: 45px;
+    justify-content: space-around;
+}
+.card{
+    height: 299px;
+    width: 279px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+.group_14{
+    padding: 20px 51px;
+}
+.peg{
+    padding-left: 38px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+.ceo{
+    padding-top: 17px;
+    padding-left: 38px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: rgba(33, 37, 41, 0.75);
+}
+.view_button{
+    display: flex;
+    justify-content: center;
+}
+.view_btn{
+    text-align: center;
+    padding: 13px 30px;
+    border: 1px solid transparent;
+    background: rgba(33, 37, 41, 1);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 54px;
+}
+.footer{
+    background: rgba(116, 198, 157, 1);
+}
+.footer_main{
+    display: flex;
+    align-items: center;
+    padding: 51px 131px;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    gap:20px;
+}
+.fa_icon{
+    color: white;
+}
+.start{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: right;
+    color: white;
+}
